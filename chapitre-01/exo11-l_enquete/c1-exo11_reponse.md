@@ -23,6 +23,6 @@ _<< J'avais vraiment l'impression d'être dans le monde réel, je paniquais pres
 
 ### Ce que nous pouvons tirer de ces expériences 
 
-Tous les avis mentionnent l'aspect profondément immersif du casque VR, et à partir de là nous pouvons dire que pour que cette immersion soit réussie, les images doivent être de très bonne qualité, et doivent toujours être prêtes à temps pour s'afficher. Le 3e avis par exemple mentionne le fait que le monde ralentisse parfois, ce qui s'interprète par des images qui manquent leur rendez-vous. 
+Tous les avis mentionnent l'aspect profondément immersif du casque VR. C'est cette immersion qui est ce qui marque le plus l'utilisateur dès qu'il met le casque sur sa tête, et à partir de là nous pouvons dire que pour que cette immersion soit réussie, les images doivent être de très bonne qualité, et doivent toujours être prêtes à temps pour s'afficher. Le 3e avis par exemple mentionne le fait que le monde ralentisse parfois, ce qui s'interprète par des images qui manquent leur rendez-vous. 
 
 De ces avis nous pouvons également noter que l'utilisation prolongée du casque VR, surtout avec des images non conformes, provoque des mauvaises sensations chez l'utilisateur, autant sur les yeux que sur le corps, ce qui pousse certains à retirer le casque rapidement. 
