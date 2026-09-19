@@ -1,6 +1,7 @@
 # ---- FICHIER DE PROJET DE LA SALLE -----
 
-from Jenga import * # On importe tous les éléments (classes, fonctions, variables...) du système de build
+# On importe tous les éléments (classes, fonctions, variables...) du système de Jenga
+from Jenga import *
 
 # Création du projet. Encadré dans un "with" afin de garantir l'utilisation et le cleanup des ressources.
 with project("Salle") :
