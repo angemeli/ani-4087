@@ -56,3 +56,7 @@ Status:         ✓ SUCCESS
 La commande ``jenga build``, passée sans argument, compile le premier projet trouvé dans le workspace, et utilise les configurations de build par défaut (Debug, Windows comme système cible, clang-mingw comme toolchain (détecté automatiquement)).
 
 La compilation se termine normalement et génère alors le fichier exécutable (Salle.exe). Le fichier code source (main.cpp) est disponible dans le même dossier que le présent fichier .md
+
+### **Note : Arborescence du projet Salle :**
+
+![Arborescence du projet](Capture.png)
