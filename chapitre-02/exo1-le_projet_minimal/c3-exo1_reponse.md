@@ -57,6 +57,6 @@ La commande ``jenga build``, passée sans argument, compile le premier projet tr
 
 La compilation se termine normalement et génère alors le fichier exécutable (Salle.exe). Le fichier code source (main.cpp) est disponible dans le même dossier que le présent fichier .md
 
-### **Note : Arborescence du projet Salle :**
+## **Note : Arborescence du projet Salle :**
 
 ![Arborescence du projet](Capture.png)
