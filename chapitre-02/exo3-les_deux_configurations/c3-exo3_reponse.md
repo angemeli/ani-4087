@@ -1,4 +1,4 @@
-### **Mesures des durées de build et d'exécution par configuration**
+## **Mesures des durées de build et d'exécution par configuration**
 
 Pour cet exercice, nous avons effectué 3 builds pour chaque configuration, et nous avons relevé à chaque fois les tailles des fichiers exécutables.
 
@@ -12,7 +12,7 @@ La taille de l'exécutable est à chaque fois de 136 ko.
 Les durées de build sont : 1.19s, 1.18s et 1.19s.
 La taille de l'exécutable est à chaque fois de 136 ko.
 
-### **Ce que l'on en déduit**
+## **Ce que l'on en déduit**
 
 La construction en Debug et la construction en Release produisent un fichier exécutable qui ne change jamais de taille. Ce qui est normal vu que les deux créent un fichier qui est identique d'une configuration à une autre.
 
