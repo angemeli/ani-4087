@@ -8,7 +8,8 @@ Ces fichiers, ainsi que le Workspace complet, sont disponibles à côté du pré
 
 Pour provoquer une erreur, conformément à la consigne de l'exercice, nous avons omis l'inclusion de **somme.cpp** dans le fichier de projet **Salle.jenga** (nous avons remplacé la ligne `files(["src/**.cpp", "include/**.hpp"])` par cette instruction : `files(["src/main.cpp", "src/moyenne.cpp", "include/**.hpp"])`). L'erreur retournée au lancement de `jenga build` est la suivante :
 
-``Compilation Error: Link Failed                                ║
+```
+Compilation Error: Link Failed                                ║
 ╠══════════════════════════════════════════════════════════════════════════════════════════════╣
 ║ C:/msys64/ucrt64/bin/ld:                                                                     ║
 ║ C:\Users\Kindson\Desktop\Travaux\github\Teguis\ani-4087\chapitre-02\exo4-la_dependance_retir ║
@@ -36,7 +37,8 @@ Status:         ✗ FAILURE
 ════════════════════════════════════════════════════════════════════════════════
 
 Echecs (1) — a corriger :
-  ✗ Salle``
+  ✗ Salle
+```
 
 Afin de se rassurer que c'est bien cette omission qui provoque cette erreur, nous avons remis le code original (`files(["src/**.cpp", "include/**.hpp"])`) dans le fichier de projet, et le build fonctionne normalement (Le build a été refait après avoir lancé `jenga clean` pour supprimer les anciens fichiers liés au build précédent et éviter qu'ils n'aient un impact).
 
