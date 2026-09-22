@@ -1,0 +1,12 @@
+# ---- FICHIER DE PROJET DE LA SALLE -----
+
+from Jenga import * # On importe tous les éléments (classes, fonctions, variables...) du système de build
+
+# Création du projet. Encadré dans un "with" afin de garantir l'utilisation et le cleanup des ressources.
+with project("Salle") :
+    windowedapp()
+    language("C++")
+    cppdialect("C++17")
+    includedirs(["include"])
+    location(".")
+    files(["src/main.cpp", "src/moyenne.cpp", "include/**.hpp"])
