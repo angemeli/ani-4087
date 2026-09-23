@@ -4,7 +4,7 @@ Il s'agit ici de trouver les dépendances du moteur Nkentseu pour la réalité v
 
 **Note** : Ces dépendances sont visibles dans le code source du fichier `NKXRDemo.jenga` (Le chemin depuis le dossier original Nkentseu : `Applications/NKXRDemo/`), lignes 26 à 29.
 
-````
+```
 NKXR, NKRenderer, NKRHI, NKSL, NKGLSlang, NKSPIRVCross,
 NKSerialization, NKReflection, NKFileSystem, NKFont, NKImage, NKGlad,
 NKEvent, NKWindow, NKMath, NKTime, NKLogger, NKStream,

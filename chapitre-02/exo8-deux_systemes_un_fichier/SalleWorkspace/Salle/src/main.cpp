@@ -8,9 +8,9 @@ int main() {
         cout << "Le programme compile sous Windows\n";
         fonction();
     #elifdef __linux__
-        cout << "Le programme compile sous Linux";
+        cout << "Le programme compile sous Linux\n";
         fonction();
     #endif
-    
+
     return 0;
 }
