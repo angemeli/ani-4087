@@ -8,6 +8,8 @@ with project("Salle") :
     language("C++")
     cppdialect("C++17")
     includedirs(["include"])
-    defines(["__linux__"])
     location(".")
     files(["src/**.cpp", "include/**.hpp"])
+
+    with filter("system:Windows") :
+        defines(["MON_FILTRE"])

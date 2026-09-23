@@ -4,9 +4,9 @@
 #include <iostream>
 using namespace std;
 
-#ifdef __linux__
+#ifdef MON_FILTRE
 void fonction() {
-   cout << "Cette fonction ne compile que sous Linux";
+   cout << "Cette fonction ne compile que si MON_FILTRE existe";
 }
 #endif
 #endif // FILTRE_HPP
