@@ -19,7 +19,7 @@ Cependant nous n'avons pas pu tester son fonctionnement sous Linux car nous n'av
 
 Ces images laissent supposer que sous Linux, les blocs concernant Windows seront masqués de la même manière et les messages en sortie seront :
 
-````
+```
 Cette fonction ne compile que sous Linux
 Le programme compile sous Linux
 ```
