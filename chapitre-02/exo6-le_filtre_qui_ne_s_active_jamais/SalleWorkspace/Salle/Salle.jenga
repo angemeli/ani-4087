@@ -11,5 +11,5 @@ with project("Salle") :
     location(".")
     files(["src/**.cpp", "include/**.hpp"])
 
-    with filter("system:Windows") :
+    with filter("system:Linux") :
         defines(["MON_FILTRE"])
