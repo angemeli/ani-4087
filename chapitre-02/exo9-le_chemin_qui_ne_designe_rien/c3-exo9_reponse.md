@@ -88,7 +88,7 @@ Status:         ✓ SUCCESS
 ════════════════════════════════════════════════════════════════════════════════
 ```
 
-Le code compile normalement. Et un message en particulier nous interpelle
+Le code compile normalement. Et un message en particulier nous interpelle :
 
 ```
 Found 1 source file(s)
@@ -97,4 +97,6 @@ Found 1 source file(s)
 
 `Found 1 source file(s)`. En d'autres termes, le compilateur ne trouve qu'un seul fichier code source, bien que deux fichiers aient été explicitement déclarés dans `Salle.jenga`.
 
-La commande jenga build est celle qui nous aurait fait gagner plus de temps. Le fait que le compilateur ne trouve qu'un fichier est significatif : Il ne fait pas aveuglément confiance au fichier de projet en tentant de compiler directement les fichiers sans vérifier qu'ils existent, il parcourt lui-même l'ensemble des programmes et trouve les fichiers qui sont réellement présents pour les compiler. Cela montre (à notre surprise) que le système de build ne provoque pas d'erreur s'il ne trouve pas des fichiers déclarés dans le fichier de projet, et que la compilation se compile normalement. Contrairement à ce à quoi nous nous attendions avant de résoudre l'exercice.
+La commande jenga build est celle qui nous aurait fait gagner plus de temps. Le fait que le compilateur ne trouve qu'un fichier est significatif : Il ne fait pas aveuglément confiance au fichier de projet en tentant de compiler directement les fichiers sans vérifier qu'ils existent, il parcourt lui-même l'ensemble des programmes et trouve les fichiers qui sont réellement présents pour les compiler. 
+
+Cela montre (à notre surprise) que le système de build ne provoque pas d'erreur s'il ne trouve pas des fichiers déclarés dans le fichier de projet, et que la compilation se compile normalement. Contrairement à ce à quoi nous nous attendions avant de résoudre l'exercice.
