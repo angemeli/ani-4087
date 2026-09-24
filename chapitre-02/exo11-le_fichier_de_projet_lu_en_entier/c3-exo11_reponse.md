@@ -30,7 +30,7 @@ nkentseudependson(
 
 Le code s'adapte à Windows, Linux et macOS. Chacun a besoin de bibliothèques système différentes pour marcher (Windows utilise ses propres outils graphiques, Linux utilise X11, macOS utilise Cocoa). Ce que le code fait, c'est brancher les bons outils selon le système d'exploitation sur lequel il tourne.
 
-### **Les 3 pièges qui arrivent si on oublie une ligne précise**
+### **Les 3 pièges qui arrivent**
 
 - **Deux bibliothèques spéciales à ajouter à la main** : En principe, lorsqu'on ajoute un module, tout ce dont il a besoin suit automatiquement, mais pas les modules `NKGLSlang` et `NKSPIRVCross`. Si elles ne sont pas manuellement ajoutées, le programme compile mais le linker bloque à la fin.
 
