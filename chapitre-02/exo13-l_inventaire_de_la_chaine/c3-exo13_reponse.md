@@ -31,6 +31,4 @@ Quant à `clang-mingw`, c'est la toolchain officiellement utilisée pour compile
 - `clang-cross-linux`, toujours de la famille clang, tourne sur Windows (notre système à nous), mais produit du code pour Linux x86_64, avec l'environnement GNU de Linux. Spécifique pour la compilation croisée. 
 - `android-ndk`, de la famille android-ndk, est le compilateur du Native Development Kit (NDK) d'Android (installé via `jenga install toolchain install android-ndk --path /path/to/ndk`). Il compile le code pour les systèmes Android en arm64. Son environnement est l'environnement Android Natif.
 
-**Note** : 
-
-Pour les différents systèmes d'exploitation cibles de nos projets (Windows, Linux, Android), aucune toolchain ne manque.
+**Note** : Pour les différents systèmes d'exploitation cibles de nos projets (Windows, Linux, Android), aucune toolchain ne manque.
