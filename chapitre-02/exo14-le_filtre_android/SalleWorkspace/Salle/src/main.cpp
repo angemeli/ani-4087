@@ -13,3 +13,8 @@ int main() {
     #endif
     return 0;
 }
+
+extern "C" void android_main(struct android_app* state) {
+    // Point d'entrée de l'application sur Android
+    cout << "Bonjour depuis Android\n";
+}

@@ -14,4 +14,4 @@ with project("Salle") :
     with filter("system:Android") :
         usetoolchain("android-ndk")
         defines(["MON_FILTRE_ANDROID"])
-        links(["android", "vulkan"])
+        links(["android"])
