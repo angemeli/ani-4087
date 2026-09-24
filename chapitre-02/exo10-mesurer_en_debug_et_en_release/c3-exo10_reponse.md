@@ -49,4 +49,4 @@ La durée moyenne d'exécution ici est donc de **52.865 ms**
 
 ### **Quelle mesure nous aurait fait prendre une mauvaise décision ?**
 
-Les résultats de mesure obtenus ne nous permettent pas réellement de conclure avec clarté, la différence entre les deux durées n'étant que de **1.3 ms**. A moins que nous n'ayons commis une erreur dans notre approche. Et si ce résultat est le comportement attendu, nous sollicitons une explication dans le rapport de correction.
+Les résultats de mesure obtenus ne nous permettent pas réellement de conclure avec clarté, la différence entre les deux durées n'étant que de **1.3 ms**. A moins que nous n'ayons commis une erreur dans notre approche, si ce résultat est le comportement attendu, nous pensons que cela est dû au fait que certains calculs ne peuvent pas être accélérés par le compilateur, surtout des opérations mathématiques de bas niveau (sin, cos, sqrt...). Nous sollicitons plus d'explications dans le rapport de correction.
