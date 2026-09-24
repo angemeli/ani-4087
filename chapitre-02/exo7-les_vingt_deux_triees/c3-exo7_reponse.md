@@ -38,7 +38,7 @@ Celles ci sont facilement reconnaissables car elles utilisent des termes standar
 | NKLogger | Système de gestion des logs et traces de débogage et de sorties console |
 | NKStream | Gestion des flux de données |
 | NKContainers | Structures de données telles que les tableaux, les files... |
-| NKXR | Le runtime de Nkentseu : sessions, espaces, poses, entrées par acctions... |
+| NKXR | Le runtime de Nkentseu : sessions, espaces, poses, entrées par actions... |
 | NKCore | Module regroupant les utilitaires de base et l'initialisation du moteur |
 
 ### **Groupe 3 : Dépendances où nous n'avons aucune idée**
