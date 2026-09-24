@@ -13,7 +13,7 @@ with filter("system:Android") :
    links(["android", "vulkan"])
 ```
 
-Ici nous précisons à Jenga quelle toolchain utiliser pour la compilation, et `links(["android", "vulkan"])` dit au linker de lier l'exécutable avec les bibliothèques android et vulkan (`libandroid.so`, la bibliothèque native de base d'Android, et `libvulkan.so`, le loader Vulkan fourni par Android).
+Ici nous précisons à Jenga quelle toolchain utiliser pour la compilation, et `links(["android", "vulkan"])` dit au linker de lier l'exécutable avec les bibliothèques android et vulkan (`libandroid.so`, la bibliothèque native de base d'Android, et `libvulkan.so`, le loader Vulkan fourni par Android). **(Ancienne version de ce readme, ce code n'existe plus dans les fichiers actualisés).**
 
 ### **La sortie de `jenga info`**
 
