@@ -38,14 +38,14 @@ Celles ci sont facilement reconnaissables car elles utilisent des termes standar
 | NKLogger | Système de gestion des logs et traces de débogage et de sorties console |
 | NKStream | Gestion des flux de données |
 | NKContainers | Structures de données telles que les tableaux, les files... |
-| NKXR | Module d'intégration pour la réalité virtuelle |
+| NKXR | Le runtime de Nkentseu : sessions, espaces, poses, entrées par acctions... |
 | NKCore | Module regroupant les utilitaires de base et l'initialisation du moteur |
 
 ### **Groupe 3 : Dépendances où nous n'avons aucune idée**
 
 Ce groupe est composé de NKRHI, NKSL, NKGLSlang, NKSPIRVCross, NKGlad
 
-- **NKRHI** (fichier ouvert : `Kernel\Runtime\NKRHI\src\NKRHI\NKRHI.h`) : Cette dépendance est un module d'intégration autour d'OpenXR ou un autre SDK de VR pour la réalité virtuelle.
+- **NKRHI** (fichier ouvert : `Kernel\Runtime\NKRHI\src\NKRHI\NKRHI.h`) : Cette dépendance est le module d'intégration pour la réalité virtuelle conçu à la main par Rihen.
 
 - **NKSL** (`Kernel\Runtime\NKSL\src\NKSL\NKSL.h`) : Nkentseu Shader Language, c'est le langage d'ombrage propre au moteur Nkentseu
 
