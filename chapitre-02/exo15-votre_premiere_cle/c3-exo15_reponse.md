@@ -43,4 +43,6 @@ Alias: (alias de la clé)
 
 L'alias de la clé, l'emplacement et le mot de passe ont été retirés dans le bloc ci-haut afin de les protéger (le mot de passe ne s'affiche d'ailleurs pas lors de la saisie dans le terminal).
 
-Nous avons rangé la clé dans un dossier réservé à cet effet (`C:\Users\Kindson\keys\keystore.jks`), hors de l'oeil de git. Il n'a aucun accès à ce dossier, et aucun programme n'utilise ce dossier de façon à l'exposer. En plus de cela nous avons noté l'alias, l'emplacement et le mot de passe sur papier, hors de la machine. Ceci afin de prévenir des éventuels oublis.
+Nous avons rangé la clé dans un dossier réservé à cet effet, hors de l'oeil de git. Il n'a aucun accès à ce dossier, et aucun programme n'utilise ce dossier de façon à l'exposer. En plus de cela nous avons noté l'alias, l'emplacement et le mot de passe sur papier, hors de la machine. Ceci afin de prévenir des éventuels oublis.
+
+![Clé sur papier](Image.jpg)
