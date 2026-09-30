@@ -1,6 +1,6 @@
 # **Cinq champs de configuration**
 
-Nous avons choisi dans `NkWindowConfig.h` (accessible depuis `Nkentseu/Kit/include/NKWindow/Core/`) cinq champs de configuration de la fenêtre. Ces champs sont visibles dans la déclaration de la structure `NkWindowConfig`, à partir de la ligne 116 du fichier. 
+Nous avons choisi dans `NkWindowConfig.h` (accessible depuis `Nkentseu/Kit/include/NKWindow/Core/`) cinq champs de configuration de la fenêtre. Ces champs sont visibles dans la déclaration de la structure `NkWindowConfig`, à partir de la ligne 116 du fichier. Cette capture en présente un extrait :
 
 ![Capture](Capture.png)
 
