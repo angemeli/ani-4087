@@ -326,4 +326,4 @@ Le programme de 15 lignes fourni dans le cours a été recopié dans le fichier 
 
 ![Fenêtre créée](Capture.png)
 
-Tout l'ensemble du processus de réalisation de cet exercice nous aura pris au final un peu plus de 15
+Tout l'ensemble du processus de réalisation de cet exercice nous aura pris au final un peu plus de 15 heures de temps.
