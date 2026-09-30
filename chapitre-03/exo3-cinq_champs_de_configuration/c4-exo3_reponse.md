@@ -21,6 +21,7 @@ config.centered = false;
 ```
 
 Le résultat obtenu confirme cette attente : la fenêtre nait alignée vers la gauche
+
 ![Capture](Capture2.png)
 
 ## **2. closable**
@@ -31,6 +32,7 @@ config.closable = false;
 ```
 
 Le résultat obtenu confirme cette attente : le bouton de fermeture a bien été masqué.
+
 ![Capture](Capture3.png)
 
 ## **3. hasShadow**
@@ -41,6 +43,7 @@ config.hasShadow = false;
 ```
 
 Le résultat obtenu confirme cette attente : l'ombre blanche aux bords de la fenêtre a bien disparu (vous remarquerez la différence au niveau des bordures, par rapport à la capture précédente).
+
 ![Capture](Capture4.png)
 
 ## **4. bgColor**
@@ -51,6 +54,7 @@ config.bgColor = 0x54A3FF;
 ```
 
 En modifiant ce champ , nous nous attendions à voir la couleur de fond de l'application changée en bleu. Voici le résultat obtenu (conforme à nos attentes) :
+
 ![Capture](Capture5.png)
 
 ## **5. opacity**
@@ -62,6 +66,7 @@ config.opacity = 0.5f;
 ```
 
 Nous nous attendions à voir de la transparence sur la fenêtre. Le résultat obtenu a confirmé nos attentes :
+
 ![Capture](Capture6.png)
 
 **Note :** Toutes ces modifications de champs ont été faites dans notre code, dans `main.cpp`, pas dans `NkWindowConfig.h`
