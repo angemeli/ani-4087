@@ -13,6 +13,8 @@ La compilation se termine normalement, et l'exécution se déroule comme suit :
 - Lorsqu'on attend, rien ne se passe, le curseur tourne. La fenêtre reste indéfiniment bloquée sans réponse du système.
 - Lorsqu'on lance le programme et qu'on provoque un évènement (par exemple un clic sur la croix de fermeture), le système signale que la fenêtre ne répond pas (le délai entre la provocation de l'évènement et le retour du système est de 1.10 seconde)
 
+![Capture](Capture.png)
+
 ## **Ce qui se passe en réalité**
 
 Lorsqu'on clique ou survole la fenêtre, le système d'exploitation capture l'événement provoqué et le transforme en message système. Il dépose ensuite ce message dans la file d'attente réservée à l'application. En principe, une boucle principale récupère un message dans la file d'attente, le traite et récupère ensuite le prochain message. Mais lorsque la boucle est vide, l'application est bloquée sur son instruction de saut en boucle. Elle ne lit jamais la file d'attente. Les événements s'accumulent sans jamais être traités.
