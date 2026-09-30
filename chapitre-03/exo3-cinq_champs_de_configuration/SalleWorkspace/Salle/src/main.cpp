@@ -11,10 +11,10 @@ int nkmain(const NkEntryState& state) {
 
     // Champs modifiés
     config.centered = false;
-    config.closable = false;
-    config.hasShadow = false;
-    config.bgColor = 0x54A3FF;
-    config.opacity = 0.5f;
+    //config.closable = false;
+    //config.hasShadow = false;
+    //config.bgColor = 0x54A3FF;
+    //config.opacity = 0.5f;
 
     NkWindow fenetre(config);
     if (!fenetre.IsValid()) {

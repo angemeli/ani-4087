@@ -31,7 +31,7 @@ Ce champ définit si la fenêtre peut être fermée via le bouton de fermeture (
 config.closable = false;
 ```
 
-Le résultat obtenu confirme cette attente : le bouton de fermeture a bien été masqué.
+Le résultat obtenu confirme cette attente : le bouton de fermeture a bien été masqué (vous remarquerez le changement par rapport à la capture précédente).
 
 ![Capture](Capture3.png)
 
