@@ -1,0 +1,19 @@
+# Exécutables
+*.exe
+
+# Fichiers objets et bibliothèques
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dll
+*.dylib
+
+# Dossiers de build
+build/
+bin/
+out/
+
+# Éditeurs et IDE
+.vscode/
