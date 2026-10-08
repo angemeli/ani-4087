@@ -1,4 +1,4 @@
-# Chapitre 04 - Exercice 1 : détection de l'interface graphique
+# Exercice 1 : Le nom de votre carte
 
 ## Compilation et exécution
 La commande suivante nous a permis de compiler notre programme
